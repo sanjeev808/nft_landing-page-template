@@ -1,0 +1,323 @@
+/* @media screen and (max-width: 960px) {
+   /* .lg-container{
+       background-color: yellow;
+    display: flex;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    margin: 81px auto 0px auto;
+    flex-wrap: wrap;
+    width: 100% !important;
+    margin: 0 auto;
+   } 
+  }
+  @media screen and (max-width: 560px) {
+    .md-container{
+  
+    }
+    .md-company4 img {
+        margin: 5px 0px;
+        display:none ;
+      }
+   }@media screen and (max-width: 360px) {
+    .sm-container{
+     display: flex;
+     margin-top: 5%;
+     padding-bottom: 5%;
+     margin: 81px auto 0px auto;
+     flex-wrap: wrap;
+    }
+   } */
+
+
+   @media (max-width:768px) {
+
+    .burger-menu {
+
+        display: flex;
+
+    }
+
+    .nav-list {
+
+        display: none;
+
+    }
+
+    nav.active-mobile-nav .nav-list {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    nav a {
+
+        margin: 5px 0;
+
+    }
+
+}
+
+ 
+@media screen and (max-width: 760px) {
+
+  nav.sanjeev.nav-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+.nav-list {
+
+  display: none;
+
+}
+
+.burger-menu {
+
+  display: flex;
+
+}
+  .md-container2 {
+    margin-top: 200px;
+    width: 47%;
+  }
+  .md-early-bird-right{
+    position: absolute;
+    top: -68px;
+    bottom: 0px;
+    width: 241px;
+    height: 237px;
+    background-size: cover;
+    right: 56px
+  }
+  .md-early-bird-right-img{
+    width: 200px;
+  }
+  .md-early-bird-left{
+    width: 50%;
+  }
+  .md-early-bird-left-img{
+    width: 57px !important;
+  }
+  .md-early-bird-head{
+    font-size: 24px !important; 
+margin: 10px 0px 1px 0px !important;
+  }
+  }
+
+/* .md-image {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+} */
+@media screen and (max-width: 560px) {
+  .md-container {
+    flex-direction: column;
+    display: flex;
+    width: none;
+  }
+  .md-justify-between {
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .s-3 {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .company1 {
+    width: auto;
+  }
+  .wi {
+    width: auto;
+  }
+  .md-bottom {
+    margin-bottom: 25px;
+  }
+  .md-company-4 {
+    display: none;
+  }
+  .md-company-3 {
+    background-color: yellow;
+  }
+}
+@media screen and (max-width: 560px) {
+  .md-container4 {
+    background-color: green;
+  }
+  .md-showcase-heading {
+    width: 270px;
+    background-color: yellow;
+  }
+  .md-showcase-paragraph {
+    width: 500px;
+  }
+  .md-showcase-img {
+    margin-left: 11px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .md-release {
+    width: 375px;
+    display: flex;
+    align-items: center;
+
+    background-image: linear-gradient(
+      to right top,
+      #fff0e8,
+      #fff0e8,
+      #fff0e8,
+      #fff0e8,
+      #fff0e8,
+      #ffe4d7,
+      #ffd8c8,
+      #ffcbba,
+      #ffada1,
+      #ff8c93,
+      #ff6791,
+      #ff3998
+    );
+    border: 2px solid rgb(69, 195, 245);
+    flex-direction: column-reverse;
+  }
+  .md-content {
+    width: 369px;
+  }
+  .md-red-men-gloop {
+    display: none;
+  }
+  .md-image-5 {
+    margin: auto;
+  }
+  .md-redmen-img {
+    width: 342px;
+    object-position: top center;
+    height: 306px;
+    object-fit: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .md-container6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .md-main-container {
+    width: 480px;
+    background-image: radial-gradient(at top right, #ff8139, #fff 50%);
+  }
+  .md-showcase-img {
+    height: 171px;
+    width: 224px;
+  }
+  .md-initial-content {
+    width: 302px;
+    text-align: left;
+  }
+  .md-initial_heading {
+    font-size: 30px !important;
+  }
+  .md-initial_para {
+    font-size: 15px;
+  }
+  .md-s-image {
+    color: white;
+    margin-bottom: 49px;
+    width: 201px;
+    height: 310px;
+  }
+  .md-showcase-content-col1 {
+    font-size: 9px;
+    font-weight: 400;
+    background: black;
+    width: 160px;
+    margin-left: 9.15px;
+  }
+  .md-showcase-content-col2 {
+    font-size: 9px;
+    font-weight: 400;
+  }
+  .md-showcase-content-col3 {
+    font-size: 9px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 560px) {
+  .md-container7 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  .md-content_nft {
+    /* background-color: green; */
+    margin: 0px 12px;
+  }
+  .md-nft-image {
+    width: 50px;
+  }
+  .md-nft-heading {
+    font-size: 30px;
+    margin-top: 23px;
+  }
+  .md-nft-para {
+    font-size: 19px;
+    margin-top: 20px;
+    color: gray;
+    width: 359px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .md-container8 {
+    display: flex;
+    justify-content: none;
+  }
+  /* .md-launch_container8{
+        margin: auto -48px;
+    } */
+  .md-heading-nft {
+    font-size: 25px;
+  }
+  .md-para-nft {
+    font-size: 15px;
+  }
+  .md-btn {
+    padding: 8px;
+    width: 133px;
+    font-size: 18px;
+  }
+  /* .md-image-div{
+
+    } */
+  .md-image-6 {
+    max-width: 405px;
+    margin-right: 601px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .md-container9 {
+    flex-direction: column;
+  }
+  .md-about-nft {
+    display: flex;
+  }
+  .md-contact-nft {
+    display: flex;
+  }
+  .md-footer-right {
+    flex-direction: column;
+  }
+  .md-footer-social {
+    margin-top: 25px;
+  }
+  .md-footer-contact {
+    margin-top: 25px;
+  }
+  .md-footer-about {
+    margin-top: 25px;
+  }
+  .md-footer-nft {
+    margin-top: 25px;
+  }
+}
